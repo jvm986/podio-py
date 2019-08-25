@@ -10,5 +10,7 @@ dist
 *.egg-info
 idea
 env
+env2
 .vscode
 testFile.txt
+fileIdList.txt
