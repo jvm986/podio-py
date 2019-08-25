@@ -10,3 +10,5 @@ dist
 *.egg-info
 idea
 env
+.vscode
+testFile.txt

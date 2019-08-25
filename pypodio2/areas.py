@@ -530,6 +530,11 @@ class Files(Area):
 
         return self.transport.POST(url='/file/%s/copy' % file_id)
 
+    def delete(self, file_id):
+        """Delete a file by file_id"""
+
+        return self.transport.DELTE(url='/file/%s' % file_id)
+
 
 class View(Area):
 
