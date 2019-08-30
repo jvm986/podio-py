@@ -533,7 +533,7 @@ class Files(Area):
     def delete(self, file_id):
         """Delete a file by file_id"""
 
-        return self.transport.DELTE(url='/file/%s' % file_id)
+        return self.transport.DELETE(url='/file/%s' % file_id)
 
 
 class View(Area):
